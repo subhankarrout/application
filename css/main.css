@@ -1581,11 +1581,11 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
 	font-size: 14px;
 	text-transform: uppercase;
-	border: 1px solid #dfa974;
+	border: 1px solid #235ee7;
 	border-radius: 2px;
-	color: #dfa974;
+	color: #fff;
 	font-weight: 500;
-	background: transparent;
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);
 	width: 100%;
 	height: 46px;
 	margin-top: 30px;
@@ -2760,7 +2760,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-unique-product img {
-  padding: 40px 0px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  
 }
 
 .single-unique-product h6 {

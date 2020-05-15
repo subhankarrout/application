@@ -99,11 +99,13 @@
 			
    
                         <h3>Place Your Order</h3>
-						<script type="text/javascript">var submitted=false;</script>
+						 <script type="text/javascript">var submitted=false;</script>
     
-    <!--Update the URL for thank you page on form submit -->
-    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-    onload="if(submitted) {window.location='http://www.honourcreators.com';}"></iframe> 
+    
+						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
+						onload="if(submitted) {window.location='https://bit.ly/honourcreators';}"></iframe> 
+						
+    
     
                         <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfyie-hLZxTlLfaeKr5uw1YPuLPaii3bnWwMRPVZ0SdopULTg/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
                             <div class="check-date">
@@ -124,6 +126,7 @@
                             <div class="select-option">
                                 <label for="guest">Choose Your Budget</label>
                                 <select id="guest" required name="entry.1344542595">
+								<option value="">Select Here</option>
                                     <option value="₹999 - ₹1999">₹999 - ₹1999</option>
 									<option value="₹2000 - ₹3000">₹2000 - ₹3000</option>
 									<option value="₹3000 - ₹4000">₹3000 - ₹4000</option>
@@ -131,7 +134,7 @@
                                 </select>
                             </div>
                             
-                  <a href="whyus.html"><button type="submit">Place Order</button></a>
+                 <button input type="submit">Place Order</button>
                         </form>
 						<script type="text/javascript">
     function validateName() {
@@ -192,6 +195,7 @@
           }
           else {
             submitted=true;
+			
             return true;
           }
         }

@@ -103,11 +103,9 @@
     
     
 						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-						onload="if(submitted) {window.location='https://bit.ly/honourcreators';}"></iframe> 
+						onload="if(submitted) {window.location='whyus.html';}"></iframe> 
 						
-    
-    
-                        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfyie-hLZxTlLfaeKr5uw1YPuLPaii3bnWwMRPVZ0SdopULTg/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+                        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfyie-hLZxTlLfaeKr5uw1YPuLPaii3bnWwMRPVZ0SdopULTg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true"s stye="max-width:400px;margin:auto;margin-top:100px">
                             <div class="check-date">
                                 <label for="Name">Your Name:</label>
                                 <input type="text" class="Name" id="Name" required class="single-input" required name="entry.625208708">
@@ -134,7 +132,8 @@
                                 </select>
                             </div>
                             
-                 <button input type="submit">Place Order</button>
+                 <button type="submit" >Place Order</button>
+				 
                         </form>
 						<script type="text/javascript">
     function validateName() {
@@ -197,8 +196,11 @@
             submitted=true;
 			
             return true;
+			
           }
+
         }
+
         </script>
                     </div>
 

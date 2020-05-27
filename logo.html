@@ -33,7 +33,10 @@
 			<link rel="stylesheet" href="css/owl.carousel.css">
 			<link rel="stylesheet" href="css/main.css">
 		</head>
-		<body>
+		
+	<body onload="ramesh()">
+
+	<div id = "runacircle"></div>
 
 			  <header id="header" id="home">
 			    <div class="container">
@@ -60,6 +63,8 @@
 										
 					<div class="row">
 						<div class="col-lg-3 col-md-6">
+						<br>
+<br>
 							<div class="single-unique-product">
 								<img class="img-fluid" src="img/01-screenshot.jpg" alt="">
 								<div class="desc">
@@ -67,8 +72,8 @@
 										<u>Logo Designing</u>
 									</h4>
 									<br>
-									<p>A logo is a combination of text and visual imagery that serves two purposes. It tells people the name of the company and it creates a visual symbol that represents your business. Some logos have a powerful symbolic association connected to people's memory.</p>
-									
+									<p>A logo is a combination of text and visual imagery that serves two purposes. It tells people the name of the company and it creates a visual symbol that represents your business. Some logos have a powerful symbolic association connected to people's memory.
+
 								</div>
 							</div>
 						</div>
@@ -84,7 +89,7 @@
     
     
 						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-						onload="if(submitted) {window.location='whyus.html';}"> </iframe> 
+						onload="if(submitted) {window.location='congo.html';}"> </iframe> 
 						
                         <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfyie-hLZxTlLfaeKr5uw1YPuLPaii3bnWwMRPVZ0SdopULTg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true"s stye="max-width:400px;margin:auto;margin-top:100px">
                             <div class="check-date">
@@ -109,6 +114,7 @@
                                     <option value="₹999 - ₹1999">₹999 - ₹1999</option>
 									<option value="₹2000 - ₹3000">₹2000 - ₹3000</option>
 									<option value="₹3000 - ₹4000">₹3000 - ₹4000</option>
+									<option value="Coustomised">Coustomised</option>
 									                           
                                 </select>
                             </div>
@@ -184,9 +190,18 @@
 
         </script>
                     </div>
-
+<br><center><div class="single-footer-widget"><p class="footer-text">With <i class="fa fa-heart-o" aria-hidden="true"></i> Team <b>HonourCreators</b></p>		
+<img class="img-fluid" src="honour.gif" alt=""><br><br></div></center>
 			
-
+		<script>
+		var preloader = document.getElementById('runacircle');
+		
+		function ramesh(){
+		
+			preloader.style.display='none';
+		}
+		
+		</script>
 			
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

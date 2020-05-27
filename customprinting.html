@@ -33,7 +33,10 @@
 			<link rel="stylesheet" href="css/owl.carousel.css">
 			<link rel="stylesheet" href="css/main.css">
 		</head>
-		<body>
+		
+	<body onload="ramesh()">
+
+	<div id = "runacircle"></div>
 
 			  <header id="header" id="home">
 			    <div class="container">
@@ -60,6 +63,8 @@
 										
 					<div class="row">
 						<div class="col-lg-3 col-md-6">
+						<br>
+<br>
 							<div class="single-unique-product">
 								<img class="img-fluid" src="img/03-screenshot.jpg" alt="">
 								<div class="desc">
@@ -69,7 +74,7 @@
 									<br>
 <p>
 
-Your Company or Team or brand logo will print on T-Shirts, Mug, Bag etc. It helps to create a brand for your company. <br>
+Get your company logo or Team logo printed on T-Shirts, Coffee Mugs, Bags, Pens etc. It helps to create a brand identity for your organisation or team.<br><br>
 Branding is important because not only is it what makes a memorable impression on consumers but it allows your customers and clients to know what to expect from your company. There are many areas that are used to develop a brand including advertising, customer service, promotional merchandise, reputation, and logo.
 
 
@@ -90,7 +95,7 @@ Branding is important because not only is it what makes a memorable impression o
     
     
 						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"      
-						onload="if(submitted) {window.location='whyus.html';}"> </iframe> 
+						onload="if(submitted) {window.location='congo.html';}"> </iframe> 
 						
                         <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfyie-hLZxTlLfaeKr5uw1YPuLPaii3bnWwMRPVZ0SdopULTg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true"s stye="max-width:400px;margin:auto;margin-top:100px">
                             <div class="check-date">
@@ -108,16 +113,35 @@ Branding is important because not only is it what makes a memorable impression o
                                  <input type="text" id="phone" required name="entry.1863342674">
                                
                             </div>
+							<table>
+							<tr>
+							<td>
                             <div class="select-option">
-                                <label for="guest">Choose Your Budget</label>
-                                <select id="guest" required name="entry.1344542595">
-								<option value="">Select Here</option>
-                                    <option value="₹999 - ₹1999">₹999 - ₹1999</option>
-									<option value="₹2000 - ₹3000">₹2000 - ₹3000</option>
-									<option value="₹3000 - ₹4000">₹3000 - ₹4000</option>
-									                           
+                                <label for="guest">Choose Your Budget & Category</label>
+                                <select id="guest" required name="entry.134542595">
+								<option value="">Budget</option>
+                                    <option value="₹199 - ₹299">₹199 - ₹299</option>
+									<option value="₹300 - ₹500">₹300 - ₹500</option>
+									<option value="₹500 - ₹5,000">₹3000 - ₹5,000</option>
+									    <option value="Coustomised">Coustomised</option>                      
                                 </select>
                             </div>
+							</td>
+							
+							<td>
+							<div class="select-option">
+                                <label for="guest">.</label>
+                                <select id="guest" required name="entry.1344542595">
+								<option value="">Category</option>
+								<option value="Print on T-Shirt">Print on T-Shirt</option>
+									<option value="Print on Mug">Print on Mug</option>
+                                    <option value="Print on Bag">Print on Bag</option>
+									
+									    <option value="Other">Other</option>                       
+                                </select>
+								</td>
+								</tr>
+								</table>
                             
                  <button type="submit" >Send Your Request</button>
 				 
@@ -191,8 +215,18 @@ Branding is important because not only is it what makes a memorable impression o
         </script>
                     </div>
 
+					<br><center><div class="single-footer-widget"><p class="footer-text">With <i class="fa fa-heart-o" aria-hidden="true"></i> Team <b>HonourCreators</b></p>		
+<img class="img-fluid" src="honour.gif" alt=""><br><br></div></center>
 			
-
+		<script>
+		var preloader = document.getElementById('runacircle');
+		
+		function ramesh(){
+		
+			preloader.style.display='none';
+		}
+		
+		</script>
 			
 			<script src="js/vendor/jquery-2.2.4.min.js"></script>
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

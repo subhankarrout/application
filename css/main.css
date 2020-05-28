@@ -15,7 +15,7 @@
 	position:fixed;
 	width: 100%;
 	height: 100vh;
-    background: #041325 url('https://honourcreators.github.io/loaderapp.gif') no-repeat center;
+    background: #041325 url('http://honourcreators.com/loaderapp.gif') no-repeat center;
 	z-index: 99999;
 }
 ::selection {
@@ -2189,6 +2189,7 @@ div.bunty {
 #header #logo img {
   padding: 0;
   margin: 0;
+  opacity: 0.5;
 }
 #header #logo1 img {
   padding: 0;
@@ -2201,6 +2202,7 @@ div.bunty {
     font-size: 28px;
   }
   #header #logo img {
+	  opacity: 0.4;
     max-height: 40px;
   }
 }

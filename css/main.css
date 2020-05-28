@@ -2189,7 +2189,7 @@ div.bunty {
 #header #logo img {
   padding: 0;
   margin: 0;
-  opacity: 0.5;
+
 }
 #header #logo1 img {
   padding: 0;
@@ -2202,7 +2202,7 @@ div.bunty {
     font-size: 28px;
   }
   #header #logo img {
-	  opacity: 0.4;
+	  opacity: 0.1;
     max-height: 40px;
   }
 }

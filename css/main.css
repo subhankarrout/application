@@ -2836,7 +2836,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   
 }
 .single-unique-product p {
-	
+	text-align: justify;
+	line spacing:2px;
   padding-left: 10px;
   padding-right: 10px;
   

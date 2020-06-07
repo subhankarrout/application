@@ -2835,6 +2835,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-top-left-radius: 10px;
   
 }
+.single-unique-product p {
+	
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
 
 .single-unique-product h6 {
   color: #235ee7;
